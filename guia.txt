@@ -1,0 +1,38 @@
+Extensiones de VS code
+javascript ES6
+material icon
+NPM
+docker
+prettier-Code formatter (luego ir setting y escribimos onsave y marcamos el check==> editor:Form ON Save)
+path intellisense
+Bracker Pair
+
+
+Instalacion:
+
+npm i -g @nestjs/cli
+nest new project-name
+sudo npm run start:dev
+
+creamos controladores
+sudo nest generate controller mensajes
+
+
+dentro de la carpeta mensajes creamos dos folder mas: 
+-dto
+   sudo nest generate class mensajes/dto/create-mensaje-dto
+
+-entities
+    sudo nest generate service mensajes/entities/nombre_archivo.entity.ts
+    dentro de esta creamos un archivo nombre_archivo.entity.ts
+
+
+Instalmos la dependencia pa la DB
+sudo npm install --save @nestjs/typeorm typeorm mysql
+
+sudo nest generate class mensajes/mensaje
+
+
+
+
+
